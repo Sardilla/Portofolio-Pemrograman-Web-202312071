@@ -16,10 +16,6 @@ Portofolio-Pemrograman-Web/
 ├── Modul-6/
 └── Modul-7/
 
-yaml
-Salin
-Edit
-
 ---
 
 ## 🧾 Deskripsi Tiap Modul
