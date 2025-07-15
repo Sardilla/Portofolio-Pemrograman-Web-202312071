@@ -60,4 +60,4 @@ Portofolio-Pemrograman-Web/
 
 ---
 
-📝 *Repositori ini disusun sebagai bagian dari tugas akhir praktikum Pemrograman Web Semester Ganjil 2024/2025.*
+📝 *Repositori ini disusun sebagai bagian dari tugas akhir praktikum Pemrograman Web Semester Genap 2024/2025.*
