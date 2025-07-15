@@ -204,46 +204,6 @@ cd Portofolio-Pemrograman-WEB-202312056
 - Start Apache dan MySQL services
 - Copy project folder ke `htdocs` (XAMPP) atau `www` (WAMP)
 
-#### 3. Database Setup (untuk Modul 6)
-```sql
--- Buat database
-CREATE DATABASE db_toko;
-
--- Gunakan database
-USE db_toko;
-
--- Buat tabel produk
-CREATE TABLE produk (
-    id_produk INT AUTO_INCREMENT PRIMARY KEY,
-    nama_produk VARCHAR(100) NOT NULL,
-    harga DECIMAL(10,2) NOT NULL,
-    stok INT NOT NULL
-);
-
--- Insert sample data
-INSERT INTO produk (nama_produk, harga, stok) VALUES
-('Laptop Gaming', 15000000.00, 5),
-('Mouse Wireless', 250000.00, 20),
-('Keyboard Mechanical', 800000.00, 15);
-```
-
-#### 4. Konfigurasi Database
-Edit file `Modul-6/Crud Toko Online/koneksi_toko.php`:
-```php
-<?php
-$servername = "localhost";
-$username = "root";        // Sesuaikan dengan username MySQL Anda
-$password = "";            // Sesuaikan dengan password MySQL Anda
-$dbname = "db_toko";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
-?>
-```
-
 ### 🌐 Akses Project
 
 | Modul | URL | Deskripsi |
